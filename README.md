@@ -42,33 +42,25 @@ Then, simply run the script (as root)
 
 Before copying the script, you can edit all variables as needed
 
-`ipam_admin_email`         : PHPIPAM ADMIN EMAIL
-`ipam_admin_pass`          : PHPIPAM ADMIN PASSWORD
-
-`ipam_site_title`          : PHPIPAM SITE TITLE
-`ipam_site_domain`         : PHPIPAM SITE DOMAIN NAME
-`ipam_site_host`           : PHPIPAM SITE HOST NAME
-`ipam_site_url_scheme`     : PHP IPAM URL SCHEME (http or https)
-
-`ipam_parentpath`          : PHPIPAM PARENT DIRECTORY PATH
-`ipam_dirname`             : PHPIPAM DIRECTORY
-
-`vhost_admin`              : PHPIPAM APACHE VHOST ADMIN
-`vhost_aliases`            : PHPIPAM APACHE VHOST ALIASES
-`vhost_error_log`          : PHPIPAM APACHE VHOST ERROR LOG NAME
-`vhost_access_log`         : PHPIPAM APACHE VHOST ACCESS LOG NAME
-`vhost_ssl_error_log`      : PHPIPAM APACHE SSL VHOST ERROR LOG NAME
-`vhost_ssl_access_log`     : PHPIPAM APACHE SSL VHOST ACCESS LOG NAME
-
-`apache_conf_path`         : PHPIPAM APACHE VHOST CONFIG PATH
-`apache_vhost_ipam`        : PHPIPAM APACHE VHOST NAME
-
-`apache_vhost_ipam_ssl`    : PHPIPAM APACHE SSL VHOST NAME
-
-`php_ipam_version`         : PHPIPAM VERSION (actual stable : 1.4)
-
-`sql_root_pwd`             : MySQL (mariadb) ROOT PASSWORD
-
-`sql_ipam_user`            : MySQL (mariadb) PHPIPAM USER
-`sql_ipam_pwd`             : MySQL (mariadb) PHPIPAM USER PASSWORD
-`sql_ipam_db`              : MySQL (mariadb) PHPIPAM DB NAME
+* `ipam_admin_email` : PHPIPAM ADMIN EMAIL
+* `ipam_admin_pass` : PHPIPAM ADMIN PASSWORD
+* `ipam_site_title` : PHPIPAM SITE TITLE
+* `ipam_site_domain` : PHPIPAM SITE DOMAIN NAME
+* `ipam_site_host` : PHPIPAM SITE HOST NAME
+* `ipam_site_url_scheme` : PHP IPAM URL SCHEME (http or https)
+* `ipam_parentpath` : PHPIPAM PARENT DIRECTORY PATH
+* `ipam_dirname` : PHPIPAM DIRECTORY
+* `vhost_admin` : PHPIPAM APACHE VHOST ADMIN
+* `vhost_aliases` : PHPIPAM APACHE VHOST ALIASES
+* `vhost_error_log` : PHPIPAM APACHE VHOST ERROR LOG NAME
+* `vhost_access_log` : PHPIPAM APACHE VHOST ACCESS LOG NAME
+* `vhost_ssl_error_log` : PHPIPAM APACHE SSL VHOST ERROR LOG NAME
+* `vhost_ssl_access_log` : PHPIPAM APACHE SSL VHOST ACCESS LOG NAME
+* `apache_conf_path` : PHPIPAM APACHE VHOST CONFIG PATH
+* `apache_vhost_ipam` : PHPIPAM APACHE VHOST NAME
+* `apache_vhost_ipam_ssl` : PHPIPAM APACHE SSL VHOST NAME
+* `php_ipam_version` : PHPIPAM VERSION (actual stable : 1.4)
+* `sql_root_pwd` : MySQL (mariadb) ROOT PASSWORD
+* `sql_ipam_user` : MySQL (mariadb) PHPIPAM USER
+* `sql_ipam_pwd` : MySQL (mariadb) PHPIPAM USER PASSWORD
+* `sql_ipam_db` : MySQL (mariadb) PHPIPAM DB NAME
