@@ -170,32 +170,16 @@ then
 
                 SSLEngine on
 
-                #   A self-signed (snakeoil) certificate can be created by installing
-                #   the ssl-cert package. See
-                #   /usr/share/doc/apache2/README.Debian.gz for more info.
-                #   If both key and certificate are stored in the same file, only the
-                #   SSLCertificateFile directive is needed.
+                #   Temp self signed SSLCertificate File.
                 SSLCertificateFile      /etc/ssl/certs/ssl-cert-snakeoil.pem
                 SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 
                 #   Server Certificate Chain:
-                #   Point SSLCertificateChainFile at a file containing the
-                #   concatenation of PEM encoded CA certificates which form the
-                #   certificate chain for the server certificate. Alternatively
-                #   the referenced file can be the same as SSLCertificateFile
-                #   when the CA certificates are directly appended to the server
-                #   certificate for convinience.
-                #SSLCertificateChainFile /etc/apache2/ssl.crt/server-ca.crt
+                # SSLCertificateChainFile /etc/apache2/ssl.crt/server-ca.crt
 
                 #   Certificate Authority (CA):
-                #   Set the CA certificate verification path where to find CA
-                #   certificates for client authentication or alternatively one
-                #   huge file containing all of them (file must be PEM encoded)
-                #   Note: Inside SSLCACertificatePath you need hash symlinks
-                #                to point to the certificate files. Use the provided
-                #                Makefile to update the hash symlinks after changes.
-                #SSLCACertificatePath /etc/ssl/certs/
-                #SSLCACertificateFile /etc/apache2/ssl.crt/ca-bundle.crt
+                # SSLCACertificatePath /etc/ssl/certs/
+                # SSLCACertificateFile /etc/apache2/ssl.crt/ca-bundle.crt
 
                 <FilesMatch "\.(cgi|shtml|phtml|php)$">
                                 SSLOptions +StdEnvVars
